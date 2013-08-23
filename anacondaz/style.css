@@ -117,11 +117,11 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 td, th
 {
 	text-align: center;
-
+    font-family: 'Comic Sans MS', cursive;
 }
 
 th {
-font-family: 'Comic Sans MS', cursive;
+font-size: 1.2em;
 }
 
 
