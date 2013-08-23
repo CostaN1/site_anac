@@ -105,24 +105,23 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 {
 	border: none;
 	padding:0;
-	border-radius: 0;
 	width: 100%;
+	border-radius: 0;
 }
-
 
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
   background-color: #e6e6e6;
-
 }
 
 td, th
 {
-    font-family: 'Comic Sans MS', cursive;
-
-
 	text-align: center;
 
+}
+
+th {
+font-family: 'Comic Sans MS', cursive;
 }
 
 
