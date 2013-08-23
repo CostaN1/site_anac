@@ -15,12 +15,13 @@ body
 	background-position: center 100px;*/
 	background-color: #ffffff;
 	max-height: 800px;
+    font-size: 14px;
 	 
 }
 
 section
 {
-	margin-top: 50px;/* высота navbar !!!!!!! */
+    margin-top: 3.6em;/* высота navbar !!!!!!! */
 }
 
 
@@ -36,15 +37,19 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 {
 	font-family:'Comic Sans MS', cursive;
 	font-size: 32px;
-	padding-right: 60px;
+	margin-right: 60px;
 
+}
+
+.logo {
+      width:6em;
 }
 
 .navbar
 {
-	font-size: 17px;
+	font-size: 1.2em;
 	font-family: MenuFont,'Comic Sans MS', cursive;
-	background-image: linear-gradient(to bottom, #777777, #ffffff);
+	background-image: linear-gradient(to bottom, #AAAAAA, #ffffff);
 	text-align: center;
 	
 	border: none;	
@@ -116,7 +121,7 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 }
 
 td, th
-{
+{    vertical-align: middle !important;
 	text-align: center;
     font-family: 'Comic Sans MS', cursive;
 }
