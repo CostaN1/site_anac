@@ -107,6 +107,7 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 	padding:0;
 	width: 100%;
 	border-radius: 0;
+    margin-bottom: 1em;
 }
 
 .table-hover > tbody > tr:hover > td,
