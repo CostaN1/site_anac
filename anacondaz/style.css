@@ -40,6 +40,10 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 
 }
 
+.icon-bar {
+   background-color: #000000 !important;
+}
+
 .navbar
 {
     font-size: 1.2em;
@@ -218,5 +222,28 @@ th {
 }
 
 
+.music_row {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.music_thumbnail {
+    margin-top: 1em;
+    border: none;
+}
+
+.thumbnail {
+    border: none;
+
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+
+}
 
 
