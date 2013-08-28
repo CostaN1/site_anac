@@ -15,13 +15,12 @@ body
 	background-position: center 100px;*/
 	background-color: #ffffff;
 	max-height: 800px;
-	font-size: 14px;
-	 
+    font-size: 14px; 
 }
 
 section
 {
-	margin-top: 50px;  /* высота navbar !!!!!!! */
+    margin-top: 3.6em;/* высота navbar !!!!!!! */
 }
 
 
@@ -37,19 +36,18 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 {
 	font-family:'Comic Sans MS', cursive;
 	font-size: 32px;
-	margin-right: 60px;
+    margin-right: 60px;
 
 }
 
 .navbar
 {
-	font-size: 1.2em;
+    font-size: 1.2em;
 	font-family: MenuFont,'Comic Sans MS', cursive;
-	background-image: linear-gradient(to bottom, #aaaaaa, #ffffff);
+    background-image: linear-gradient(to bottom, #AAAAAA, #ffffff);
 	text-align: center;
-	 /* border-bottom: 2px solid #efefef; */
-	 border: none;
-     	
+	
+	border: none;	
 }
 
 .navbar .divider-vertical {
@@ -93,7 +91,7 @@ padding-top: 2px;
 
 .footer {
 
-  background-image: linear-gradient(to bottom, #ffffff, #aaaaaa);
+  background-image: linear-gradient(to bottom, #ffffff, #777777);
 }
 
 .footer > .container {
@@ -120,7 +118,7 @@ padding-top: 2px;
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 800px;
-  background-color:  linear-gradient(to bottom , #ffffff, #777777);
+  background-color:  linear-gradient(to bottom, #ffffff, #777777);
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -134,7 +132,7 @@ padding-top: 2px;
 
 
 
-/* LIVE.HTML
+/* INDEX.HTML
 -------------------------------------------------- */
 
 
@@ -142,39 +140,30 @@ padding-top: 2px;
 {
 	border: none;
 	padding:0;
+	border-radius: 0;
 	width: 100%;
 	border-radius: 0;
     margin-bottom: 1em;
 }
 
+
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
   background-color: #e6e6e6;
+
 }
 
 td, th
-{
+{    vertical-align: middle !important;
 	text-align: center;
-	font-family:'Comic Sans MS', cursive;
-	vertical-align: middle !important;
+    font-family: 'Comic Sans MS', cursive;
 }
 
-th 
-{
-font-size: 1.2em;
+th {
+    font-size: 1.2em;
 }
 
 
-
-
-/* NEWS.HTML
--------------------------------------------------- */
-
-
-.news
-{
-	padding-top: 70px;
-}
 
 .panel-default
 {
@@ -190,6 +179,11 @@ font-size: 1.2em;
 .date .panel-title
 {
 	font-size: 14px;
+}
+
+.news
+{
+    padding-top: 70px;
 }
 
 .news_img
