@@ -44,37 +44,42 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
    background-color: #000000 !important;
 }
 
-.navbar
-{
-    font-size: 1.2em;
-	font-family: MenuFont,'Comic Sans MS', cursive;
-    background-image: linear-gradient(to bottom, #AAAAAA, #ffffff);
-	text-align: center;
-	
-	border: none;	
-}
 
-.navbar .divider-vertical {
-  height: 50px;
-  margin: 0 9px;
-  border-right: 1px solid #efefef;
-  border-left: 1px solid #e2e2e2;
-}
 
 
 .logo {
 width: 6em;
 margin-right: 1em;
 padding-top: 2px;
+}
+
+.navbar
+{
+    font-size: 1.2em;
+    font-family: MenuFont,'Comic Sans MS', cursive;
+    background-image: linear-gradient(to bottom, #aaaaaa, #ffffff);
+    text-align: center;
+    /* border-bottom: 2px solid #efefef; */
+    border: none;
 
 }
+
+.navbar .divider-vertical {
+    height: 50px;
+    margin: 0 9px;
+    border-right: 1px solid #efefef;
+    border-left: 1px solid #e2e2e2;
+}
+
+
+
 
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #222222;
-  background-image: linear-gradient(to bottom, #999999, #ffffff) ;
+    color: #222222;
+    background-image: linear-gradient(to bottom, #999999, #ffffff) ;
 
 
 }
@@ -82,12 +87,12 @@ padding-top: 2px;
 
 .navbar-collapse
 {
-	border: none;
-} 
+    border: none;
+}
 
 .active
 {
-	border-radius: 7px;
+    border-radius: 7px;
 }
 
 /* FOOTER 
@@ -130,7 +135,7 @@ padding-top: 2px;
   left: 0;
  
   min-width: 100%;
-  height: 100%;
+
 }
 
 
@@ -246,4 +251,6 @@ p {
 
 }
 
-
+.caption {
+    padding: 0 9px;
+}
