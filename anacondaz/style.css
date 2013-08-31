@@ -53,6 +53,10 @@ margin-right: 1em;
 padding-top: 2px;
 }
 
+.logo:hover{
+    filter: brightness(50%);
+}
+
 .navbar
 {
     font-size: 1.2em;
@@ -253,4 +257,52 @@ p {
 
 .caption {
     padding: 9px 0 !important;
+}
+
+.start_bg {
+    /* width: 150%; */
+    position: fixed;
+
+    /* width: 200%; */
+    /* height: 150%; */
+    /* left: -50%; */
+}
+
+.start_img {
+    max-width: 100%;
+
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.start_logo {
+    max-width: 18%;
+    position: absolute;
+    top: 7%;
+    left: 37.5%;
+}
+
+.start_wrap {
+    font-size: 4em;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.start_enter_link {
+      color: #FFFFFF;
+}
+
+.start_enter_link:hover {
+    color: #ffd403;
+    text-decoration: none;
+
+}
+
+.start_enter_block {
+    margin: 0;
+    position: absolute;
+    /* right: 10%; */
+    top: 88%;
+    left: 81%;
+    padding:  0;
 }
