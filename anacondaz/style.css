@@ -57,6 +57,12 @@ padding-top: 2px;
     filter: brightness(50%);
 }
 
+@media(min-width:768px){
+    .my_container {
+        width: 691px;
+        margin: auto;
+    }
+}
 .navbar
 {
     font-size: 1.2em;

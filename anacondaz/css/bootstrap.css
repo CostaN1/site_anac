@@ -4939,7 +4939,7 @@ a.list-group-item.active > .badge,
   border-radius: 6px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 770px) {
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
