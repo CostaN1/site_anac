@@ -48,14 +48,11 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 
 
 .logo {
-width: 6em;
-margin-right: 1em;
-padding-top: 2px;
+    width: 6em;
+    margin-right: 1em;
+    padding-top: 2px;
 }
 
-.logo:hover{
-    filter: brightness(50%);
-}
 
 @media(min-width:768px){
     .my_container {
@@ -63,6 +60,14 @@ padding-top: 2px;
         margin: auto;
     }
 }
+
+@media (max-width:768px){
+    .my_container .navbar-header div{
+
+    float: left;
+    margin-left: 15px;
+}}
+
 .navbar
 {
     font-size: 1.2em;
@@ -121,8 +126,6 @@ padding-top: 2px;
 
 
 
-/* INDEX.HTML
--------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
@@ -151,7 +154,7 @@ padding-top: 2px;
 
 
 
-/* INDEX.HTML
+/* LIVE.HTML
 -------------------------------------------------- */
 
 
@@ -264,6 +267,9 @@ p {
 .caption {
     padding: 9px 0 !important;
 }
+
+
+/* -------------------start.html-------------*/
 
 .start_bg {
     /* width: 150%; */
