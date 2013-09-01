@@ -13,3 +13,8 @@ $("div.albums").children().mouseover(function() {
     }).mouseout(function() {
         $(this).stop(1).animate({width:'33.33334%'},300);
     });
+
+$('#myTab a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+})

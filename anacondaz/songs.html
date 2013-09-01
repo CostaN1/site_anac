@@ -29,7 +29,7 @@
     <!-- Fixed navbar -->
 
     <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="my_container">
 
 
             <div class="navbar-header">
@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <div><img src="img/logo_copy.png" class="logo"></div>
+                <div><a href="index.html"><img src="img/logo_copy.png" class="logo"></a></div>
 
             </div>
 
@@ -47,9 +47,8 @@
             <div class="navbar-collapse collapse">
 
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">ГЛАВНАЯ</a></li>
                     <li><a href="news.html">НОВОСТИ</a></li>
-                    <li><a href="live.html">КОНЦЕРТЫ</a></li>
+                    <li ><a href="live.html">КОНЦЕРТЫ</a></li>
                     <li class="active"><a href="music.html">МУЗЫКА</a></li>
                     <li><a href="photo.html">ФОТОГРАФИИ</a></li>
                     <li><a href="video.html">ВИДЕО</a></li>
@@ -62,6 +61,49 @@
 
 
 <section>
+    <div class="songs_wrapper">
+        <div class="songs_left_block">
+            <ul class="songs_tab" id="myTab">
+                <li class="active"><a href="#evolution"><img src="img/album/cover_evolution_icon.jpg"><p>Эволюция</p></a></li>
+                <li class="songs_last_album"><a href="#ni4tyaki"><img src="img/album/cover_ni4tyaki_icon.jpg"><p>Смачные ништяки</p></a></li>
+
+            </ul>
+        </div><!--
+        --><div class="songs_right_block">
+            <div class="tab-content">
+                <div class="tab-pane active" id="evolution">
+                    <h2>Эволюция</h2>
+                    <h6>28 апреля 2012г.</h6>
+                    <ol>
+                        <li>Эволюция</li>
+                        <li>69</li>
+                        <li>Всем пиздец</li>
+                        <li>Дома посижу</li>
+                        <li>Остросоциальный (скит)</li>
+                    </ol>
+                </div>
+                <div class="tab-pane" id="ni4tyaki">
+                    <h2>Смачные ништяки</h2>
+                    <h6>20 апреля 2009г.</h6>
+                    <ol>
+                        <li>Привет, Гитлер</li>
+                        <li>Пять пальцев</li>
+                        <li>В офисе</li>
+                        <li>Мягкий (скит)</li>
+                        <li>Поколение</li>
+                        <li>Наивность</li>
+                        <li>Фейсконтроль</li>
+                        <li>Милый (скит)</li>
+                        <li>Орфография</li>
+                        <li>Юрий Гагарин</li>
+                        <li>Флаг (feat. Ринат Султанов)</li>
+                    </ol>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
 
 </section>
@@ -85,6 +127,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/primary.js"></script>
 </body>
 </html>
 
