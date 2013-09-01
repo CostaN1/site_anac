@@ -24,6 +24,7 @@ section
 }
 
 
+
 /* HEADER
 -----------------------------------------------*/
 
@@ -32,13 +33,15 @@ font-family: MenuFont; /* Гарнитура шрифта */
 src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 }
 
+<<<<<<< HEAD
 .logo_font
 {
 	font-family:'Comic Sans MS', cursive;
 	font-size: 32px;
     margin-right: 60px;
+=======
+>>>>>>> new v
 
-}
 
 .navbar
 {
@@ -58,11 +61,12 @@ src: url(fonts/MenuFont.ttf); /* Путь к файлу со шрифтом */
 }
 
 
-.logo {
+.logo 
+{
 width: 6em;
 margin-right: 1em;
+margin-left: 2em;
 padding-top: 2px;
-
 }
 
 
@@ -70,9 +74,7 @@ padding-top: 2px;
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #222222;
-  background-image: linear-gradient(to bottom, #999999, #ffffff) ;
-
-
+  background-image: linear-gradient(to bottom, #999999, #ffffff);
 }
 
 
@@ -81,10 +83,6 @@ padding-top: 2px;
 	border: none;
 } 
 
-.active
-{
-	border-radius: 7px;
-}
 
 /* FOOTER 
 -----------------------------------------------*/
@@ -105,16 +103,8 @@ padding-top: 2px;
 /* INDEX.HTML
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
- 
- margin-top: -50px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
 
+<<<<<<< HEAD
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 800px;
@@ -128,6 +118,8 @@ padding-top: 2px;
   min-width: 100%;
   height: 100%;
 }
+=======
+>>>>>>> new v
 
 
 
@@ -165,57 +157,81 @@ th {
 
 
 
+<<<<<<< HEAD
 .panel-default
 {
 	margin-top: 10px;
-}
+=======
 
-.panel-title, .panel-body, .panel-footer
+/* NEWS.HTML
+-------------------------------------------------- */
+.news_border
 {
-	font-family:'Comic Sans MS', cursive !important; 	
-	border-radius: 10px 0px 0px 10px;
+ 
+  
+
+  border: 4px solid #efefef;
+  border: 2px solid #a2a2a2;
+
+  width: 100%;
+  height: auto;
 }
 
-.date .panel-title
+.panel-main
+{	
+	
+	margin: 20px;	
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: justify;
+	font-family:'Comic Sans MS', cursive !important;
+>>>>>>> new v
+}
+
+
+.img_news
 {
-	font-size: 14px;
-}
+	width: 40%;
+	height: auto;
+	margin: 7px;
+	float:left;
+} 
 
+<<<<<<< HEAD
 .news
 {
     padding-top: 70px;
 }
 
 .news_img
+=======
+.main_news
+>>>>>>> new v
 {
-	border-radius: 0px 10px 10px 0px;
-}
-
-.news_border
-{
-  padding-top: 10px;
-  border: 2px solid #efefef;
-  border-radius: 10px;
-
+	float:left;
 }
 
 
+/* Carousel base class */
+.carousel {
 
-.left_column
-{
-  background-image: linear-gradient(to left, #cccccc, #ffffff) ;
+	border: 4px solid #efefef;
+  border: 2px solid #a2a2a2;
+  border-radius: 5px;
+
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
 }
 
-.right_column
-{
-
-  background-image: linear-gradient(to right, #cccccc, #ffffff);
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  
 }
 
-.center_column
-{
-	background-color: #cccccc;
-}
+
 
 
 
