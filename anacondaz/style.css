@@ -15,7 +15,8 @@ body
 	background-position: center 100px;*/
 	background-color: #ffffff;
 	max-height: 800px;
-    font-size: 14px; 
+    
+	font-size: 14px; 
 }
 
 section
@@ -339,6 +340,8 @@ p {
 
 .songs_left_block{
     border-right: solid #AAAAAA;
+    height: 703px;
+    /* vertical-align: middle; */
     width: 32%;
     list-style-type: none;
     display: inline-block;
@@ -362,18 +365,58 @@ p {
     float: right;
     margin-left: 0; 
     padding-left: 0;
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+.songs_left_block ul .active {
+    
+    
+    background: #000000;
 }
 
 
+
+
 .songs_right_block {
-    /* width: 50%; */
-    margin-left: 10px;
+    font-family: 'Comic Sans MS', cursive;
+    width: 68%;
+    /* margin-left: 244px; */
+    /* width: 691px; */
+    /* margin: auto; */
     vertical-align: top;
     display: inline-block;
+    font-size: 2em;
+}
+
+.songs_right_block div{
+    margin: auto;
+    width: 84%;
+    height: 50;
+}
+
+.songs_right_block div div h1,h6{
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.songs_right_block div div h6{
+   font-size:0.7em;  
+}
+.songs_right_block div div h1{
+   font-size:2em;  
+   /* padding-top: 0px; */
+   margin-top: 0px;
+}
+.songs_right_block div div ol{
+   margin-left: 10px;
 }
 .songs_left_block ul li a p{
     margin:0 10px 0 10px;
     display:inline-block;
     color: black;
     font-size: 1.4em;
+}
+
+.songs_left_block ul li.active a p{
+    color:#FFFFFF !important;
 }

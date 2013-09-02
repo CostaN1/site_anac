@@ -8,13 +8,18 @@
 
 
 $("div.albums").children().mouseover(function() {
-        $(this).stop(1).animate({width:'41.6667%'},300)
+        $(this).stop(1).animate({width:'33.33334%'},300)
 
     }).mouseout(function() {
-        $(this).stop(1).animate({width:'33.33334%'},300);
+        $(this).stop(1).animate({width:'25%'},300);
     });
 
 $('#myTab a').click(function (e) {
     e.preventDefault()
     $(this).tab('show')
 })
+
+function song(){
+    var arg=window.location.search.substring(1);
+    $('#myTab a[href="#'+arg+'"]').tab('show');
+}
